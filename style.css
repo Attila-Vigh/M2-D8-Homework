@@ -1,0 +1,132 @@
+.ex1{
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 35px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+
+.green{
+    background-color: rgb(81, 156, 81);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.blue{
+    background-color: #007BFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 600;
+    
+}
+
+.yellow {
+    background-color: rgb(248, 248, 112);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+    
+}
+
+
+
+.yellow-light {
+    /* height: 133px; */
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 255, 170);
+}
+.yellow-medium {
+    /* height: 133px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(252, 252, 77);
+}
+.yellow-strong {
+    /* height: 133px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(235, 203, 61);
+}
+
+section {
+    margin: 30px 0;
+}
+.ex2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.ex2 > * {
+    flex-grow:1;
+}
+
+.card {
+    border: 1px solid gray ;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.card-body > * {
+    margin: 0;
+}
+
+.user-type {
+    background-color: #dbdada;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%!important;
+}
+
+.month-contract {
+    font-size: 40px;
+    color: gray;
+}
+
+.priceTag {
+    color: black;
+    font-weight: 600;
+}
+
+.btn-outline-primary {
+    width: 90%;
+    font-weight: 600;
+    font-size: 20px;
+
+    margin: 20px 0;
+}
+
+.btn-primary{
+    width: 90%;
+    font-weight: 600;
+    font-size: 20px;
+
+    margin: 20px 0;
+}
+
+.video-cards {
+    background-color: rgb(241, 241, 241);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 20px;
+}
+
